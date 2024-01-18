@@ -1,0 +1,25 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat en tiempo real</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Chat en tiempo real con node.js y socket.io</h1>
+        <form id="nickname-form">
+            <input type="text" id="nickname-input" placeholder="Ingresa tu nickname" required>
+            <button type="submit" id="nickname-button">Entrar al lobby</button>
+        </form>
+        <div id="lobby" hidden>
+            <h2>Bienvenido al lobby, <span id="nickname-display"></span></h2>
+            <p>En este lobby puedes ver el cursor de los demás usuarios en tiempo real.</p>
+            <div id="canvas"></div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+</html>
