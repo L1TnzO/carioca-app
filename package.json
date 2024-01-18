@@ -1,0 +1,30 @@
+{
+  "name": "carioca",
+  "version": "1.0.0",
+  "description": "a carioca game",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L1TnzO/carioca-app.git"
+  },
+  "keywords": [
+    "card",
+    "game"
+  ],
+  "author": "Enzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/L1TnzO/carioca-app/issues"
+  },
+  "homepage": "https://github.com/L1TnzO/carioca-app#readme"
+}
